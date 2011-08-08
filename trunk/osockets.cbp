@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="osockets" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option platforms="Windows;Unix;" />
+				<Option output="libosockets" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Debug\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option platforms="Windows;Unix;" />
+				<Option output="libosockets" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Release\" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="inc" />
+		</Compiler>
+		<Linker>
+			<Add library="C:\MinGW\lib\libws2_32.a" />
+		</Linker>
+		<Unit filename="inc\address.h" />
+		<Unit filename="inc\imp\addrinfo.h" />
+		<Unit filename="inc\imp\addrinfobase.h" />
+		<Unit filename="inc\imp\addrinfobaseif.h" />
+		<Unit filename="inc\imp\hintstcpclient.h" />
+		<Unit filename="inc\imp\hintstcpserver.h" />
+		<Unit filename="inc\imp\mutex.h" />
+		<Unit filename="inc\imp\osocketfunctors.h" />
+		<Unit filename="inc\imp\osocketsdef.h" />
+		<Unit filename="inc\imp\osockettypes.h" />
+		<Unit filename="inc\imp\stringable.h" />
+		<Unit filename="inc\socket.h" />
+		<Unit filename="inc\socketconnection.h" />
+		<Unit filename="inc\socketexception.h" />
+		<Unit filename="inc\sockettoolbox.h" />
+		<Unit filename="inc\tcpserversocket.h" />
+		<Unit filename="inc\tcpsocket.h" />
+		<Unit filename="inc\winsockinit.h" />
+		<Unit filename="src\address.cpp" />
+		<Unit filename="src\imp\addrinfo.cpp" />
+		<Unit filename="src\imp\addrinfobase.cpp" />
+		<Unit filename="src\imp\hintstcpclient.cpp" />
+		<Unit filename="src\imp\hintstcpserver.cpp" />
+		<Unit filename="src\imp\mutex.cpp" />
+		<Unit filename="src\imp\osocketfunctors.cpp" />
+		<Unit filename="src\imp\osocketsdef.cpp" />
+		<Unit filename="src\socket.cpp" />
+		<Unit filename="src\socketconnection.cpp" />
+		<Unit filename="src\socketexception.cpp" />
+		<Unit filename="src\sockettoolbox.cpp" />
+		<Unit filename="src\tcpserversocket.cpp" />
+		<Unit filename="src\tcpsocket.cpp" />
+		<Unit filename="src\winsockinit.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
