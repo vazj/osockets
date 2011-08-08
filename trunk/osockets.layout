@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="inc\address.h" open="0" top="0" tabpos="3">
+		<Cursor position="2148" topLine="1" />
+	</File>
+	<File name="inc\imp\addrinfo.h" open="0" top="0" tabpos="7">
+		<Cursor position="464" topLine="3" />
+	</File>
+	<File name="inc\imp\addrinfobase.h" open="0" top="0" tabpos="0">
+		<Cursor position="481" topLine="42" />
+	</File>
+	<File name="inc\imp\addrinfobaseif.h" open="0" top="0" tabpos="0">
+		<Cursor position="476" topLine="17" />
+	</File>
+	<File name="inc\imp\hintstcpclient.h" open="0" top="0" tabpos="5">
+		<Cursor position="376" topLine="0" />
+	</File>
+	<File name="inc\imp\hintstcpserver.h" open="0" top="0" tabpos="0">
+		<Cursor position="476" topLine="0" />
+	</File>
+	<File name="inc\imp\mutex.h" open="0" top="0" tabpos="5">
+		<Cursor position="466" topLine="38" />
+	</File>
+	<File name="inc\imp\osocketfunctors.h" open="0" top="0" tabpos="7">
+		<Cursor position="1681" topLine="0" />
+	</File>
+	<File name="inc\imp\osocketsdef.h" open="1" top="0" tabpos="1">
+		<Cursor position="789" topLine="21" />
+	</File>
+	<File name="inc\imp\osockettypes.h" open="1" top="0" tabpos="2">
+		<Cursor position="515" topLine="0" />
+	</File>
+	<File name="inc\imp\stringable.h" open="0" top="0" tabpos="0">
+		<Cursor position="854" topLine="11" />
+	</File>
+	<File name="inc\socket.h" open="1" top="0" tabpos="3">
+		<Cursor position="685" topLine="58" />
+	</File>
+	<File name="inc\socketconnection.h" open="1" top="0" tabpos="5">
+		<Cursor position="3056" topLine="64" />
+	</File>
+	<File name="inc\socketexception.h" open="0" top="0" tabpos="4">
+		<Cursor position="458" topLine="0" />
+	</File>
+	<File name="inc\sockettoolbox.h" open="0" top="0" tabpos="5">
+		<Cursor position="1680" topLine="18" />
+	</File>
+	<File name="inc\tcpserversocket.h" open="1" top="0" tabpos="7">
+		<Cursor position="1312" topLine="0" />
+	</File>
+	<File name="inc\tcpsocket.h" open="0" top="0" tabpos="0">
+		<Cursor position="869" topLine="0" />
+	</File>
+	<File name="inc\winsockinit.h" open="0" top="0" tabpos="0">
+		<Cursor position="2325" topLine="1" />
+	</File>
+	<File name="src\address.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="2537" topLine="47" />
+	</File>
+	<File name="src\imp\addrinfo.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="412" topLine="17" />
+	</File>
+	<File name="src\imp\addrinfobase.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="496" topLine="0" />
+	</File>
+	<File name="src\imp\hintstcpclient.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="493" topLine="0" />
+	</File>
+	<File name="src\imp\mutex.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="987" topLine="0" />
+	</File>
+	<File name="src\imp\osocketfunctors.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1101" topLine="0" />
+	</File>
+	<File name="src\imp\osocketsdef.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="391" topLine="60" />
+	</File>
+	<File name="src\socket.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="793" topLine="83" />
+	</File>
+	<File name="src\socketconnection.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="910" topLine="71" />
+	</File>
+	<File name="src\socketexception.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="350" topLine="0" />
+	</File>
+	<File name="src\sockettoolbox.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="2356" topLine="57" />
+	</File>
+	<File name="src\tcpserversocket.cpp" open="1" top="1" tabpos="8">
+		<Cursor position="712" topLine="40" />
+	</File>
+	<File name="src\tcpsocket.cpp" open="0" top="0" tabpos="10">
+		<Cursor position="663" topLine="0" />
+	</File>
+	<File name="src\winsockinit.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1653" topLine="3" />
+	</File>
+</CodeBlocks_layout_file>
