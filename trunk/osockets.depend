@@ -152,3 +152,154 @@
 1311685784 c:\cpp_proj\osockets\inc\tcpsocket.h
 	"socketconnection.h"
 
+1310040393 source:c:\cpp_proj\osockets_svn\src\address.cpp
+	<stdio.h>
+	<sstream>
+	"address.h"
+	"sockettoolbox.h"
+
+1310030375 c:\cpp_proj\osockets_svn\inc\address.h
+	<string>
+	"imp/stringable.h"
+	"imp/osockettypes.h"
+
+1304343091 c:\cpp_proj\osockets_svn\inc\imp\stringable.h
+	<string>
+	"imp/osockettypes.h"
+
+1312286265 c:\cpp_proj\osockets_svn\inc\imp\osockettypes.h
+
+1312287125 c:\cpp_proj\osockets_svn\inc\sockettoolbox.h
+	"imp/osockettypes.h"
+	"imp/osocketsdef.h"
+	"socketexception.h"
+
+1304603083 c:\cpp_proj\osockets_svn\inc\imp\osocketsdef.h
+	"imp/osockettypes.h"
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<netdb.h>
+	<errno.h>
+
+1304508053 c:\cpp_proj\osockets_svn\inc\socketexception.h
+	<exception>
+	<string>
+
+1304600833 source:c:\cpp_proj\osockets_svn\src\imp\addrinfo.cpp
+	"imp/addrinfo.h"
+	<sstream>
+
+1304588488 c:\cpp_proj\osockets_svn\inc\imp\addrinfo.h
+	"imp/osocketsdef.h"
+	"imp/addrinfobase.h"
+	"address.h"
+	"socketexception.h"
+
+1304507959 c:\cpp_proj\osockets_svn\inc\imp\addrinfobase.h
+	<imp/addrinfobaseif.h>
+
+1304343423 c:\cpp_proj\osockets_svn\inc\imp\addrinfobaseif.h
+	"imp/osockettypes.h"
+
+1304344051 source:c:\cpp_proj\osockets_svn\src\imp\addrinfobase.cpp
+	"imp/addrinfobase.h"
+
+1304505020 source:c:\cpp_proj\osockets_svn\src\imp\hintstcpclient.cpp
+	"imp/hintstcpclient.h"
+	"imp/osocketsdef.h"
+
+1304505043 c:\cpp_proj\osockets_svn\inc\imp\hintstcpclient.h
+	<imp/addrinfobase.h>
+
+1305034964 source:c:\cpp_proj\osockets_svn\src\imp\hintstcpserver.cpp
+	"imp/hintstcpserver.h"
+	"imp/osocketsdef.h"
+
+1305034963 c:\cpp_proj\osockets_svn\inc\imp\hintstcpserver.h
+	<imp/addrinfobase.h>
+
+1313587160 source:c:\cpp_proj\osockets_svn\src\imp\hintsudp.cpp
+	"imp/hintsudp.h"
+	"imp/osocketsdef.h"
+
+1313587197 c:\cpp_proj\osockets_svn\inc\imp\hintsudp.h
+	<imp/addrinfobase.h>
+
+1304679442 source:c:\cpp_proj\osockets_svn\src\imp\mutex.cpp
+	"imp/mutex.h"
+
+1304679880 c:\cpp_proj\osockets_svn\inc\imp\mutex.h
+	"imp/osocketsdef.h"
+	<windows.h>
+	<process.h>
+	<pthread.h>
+
+1305711774 source:c:\cpp_proj\osockets_svn\src\imp\osocketfunctors.cpp
+	"imp/osocketfunctors.h"
+
+1312291037 c:\cpp_proj\osockets_svn\inc\imp\osocketfunctors.h
+	"imp/osocketsdef.h"
+	"imp/addrinfo.h"
+	<vector>
+
+1304602977 source:c:\cpp_proj\osockets_svn\src\imp\osocketsdef.cpp
+	"imp/osocketsdef.h"
+
+1310042111 source:c:\cpp_proj\osockets_svn\src\socket.cpp
+	"socket.h"
+	"imp/addrinfo.h"
+	"address.h"
+	<sstream>
+	"winsockinit.h"
+
+1311685911 c:\cpp_proj\osockets_svn\inc\socket.h
+	"imp/osocketsdef.h"
+	"imp/osocketfunctors.h"
+	"socketexception.h"
+
+1305119950 c:\cpp_proj\osockets_svn\inc\winsockinit.h
+	"imp/osocketsdef.h"
+	"socketexception.h"
+
+1310042199 source:c:\cpp_proj\osockets_svn\src\socketconnection.cpp
+	"socketconnection.h"
+	"address.h"
+	<sstream>
+
+1311685419 c:\cpp_proj\osockets_svn\inc\socketconnection.h
+	"socket.h"
+
+1303895774 source:c:\cpp_proj\osockets_svn\src\socketexception.cpp
+	"socketexception.h"
+
+1312287000 source:c:\cpp_proj\osockets_svn\src\sockettoolbox.cpp
+	"sockettoolbox.h"
+	"imp/osocketsdef.h"
+	"address.h"
+	<sstream>
+
+1311683667 source:c:\cpp_proj\osockets_svn\src\tcpserversocket.cpp
+	"tcpserversocket.h"
+	"socketconnection.h"
+	"imp/hintstcpserver.h"
+	<sstream>
+
+1311685784 c:\cpp_proj\osockets_svn\inc\tcpserversocket.h
+	"socket.h"
+
+1311684194 source:c:\cpp_proj\osockets_svn\src\tcpsocket.cpp
+	"tcpsocket.h"
+	"imp/hintstcpclient.h"
+	"sockettoolbox.h"
+
+1311685784 c:\cpp_proj\osockets_svn\inc\tcpsocket.h
+	"socketconnection.h"
+
+1305119962 source:c:\cpp_proj\osockets_svn\src\winsockinit.cpp
+	"winsockinit.h"
+	<sstream>
+

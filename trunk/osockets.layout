@@ -13,8 +13,8 @@
 	<File name="inc\imp\addrinfobaseif.h" open="0" top="0" tabpos="0">
 		<Cursor position="476" topLine="17" />
 	</File>
-	<File name="inc\imp\hintstcpclient.h" open="0" top="0" tabpos="5">
-		<Cursor position="376" topLine="0" />
+	<File name="inc\imp\hintstcpclient.h" open="1" top="0" tabpos="7">
+		<Cursor position="450" topLine="0" />
 	</File>
 	<File name="inc\imp\hintstcpserver.h" open="0" top="0" tabpos="0">
 		<Cursor position="476" topLine="0" />
@@ -46,7 +46,7 @@
 	<File name="inc\sockettoolbox.h" open="0" top="0" tabpos="5">
 		<Cursor position="1680" topLine="18" />
 	</File>
-	<File name="inc\tcpserversocket.h" open="1" top="0" tabpos="7">
+	<File name="inc\tcpserversocket.h" open="0" top="0" tabpos="7">
 		<Cursor position="1312" topLine="0" />
 	</File>
 	<File name="inc\tcpsocket.h" open="0" top="0" tabpos="0">
@@ -64,8 +64,11 @@
 	<File name="src\imp\addrinfobase.cpp" open="0" top="0" tabpos="0">
 		<Cursor position="496" topLine="0" />
 	</File>
-	<File name="src\imp\hintstcpclient.cpp" open="0" top="0" tabpos="6">
-		<Cursor position="493" topLine="0" />
+	<File name="src\imp\hintstcpclient.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="531" topLine="0" />
+	</File>
+	<File name="src\imp\hintsudp.cpp" open="1" top="0" tabpos="10">
+		<Cursor position="527" topLine="0" />
 	</File>
 	<File name="src\imp\mutex.cpp" open="0" top="0" tabpos="6">
 		<Cursor position="987" topLine="0" />
@@ -88,8 +91,8 @@
 	<File name="src\sockettoolbox.cpp" open="0" top="0" tabpos="6">
 		<Cursor position="2356" topLine="57" />
 	</File>
-	<File name="src\tcpserversocket.cpp" open="1" top="1" tabpos="8">
-		<Cursor position="712" topLine="40" />
+	<File name="src\tcpserversocket.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="712" topLine="0" />
 	</File>
 	<File name="src\tcpsocket.cpp" open="0" top="0" tabpos="10">
 		<Cursor position="663" topLine="0" />

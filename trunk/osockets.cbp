@@ -49,6 +49,7 @@
 		<Unit filename="inc\imp\addrinfobaseif.h" />
 		<Unit filename="inc\imp\hintstcpclient.h" />
 		<Unit filename="inc\imp\hintstcpserver.h" />
+		<Unit filename="inc\imp\hintsudp.h" />
 		<Unit filename="inc\imp\mutex.h" />
 		<Unit filename="inc\imp\osocketfunctors.h" />
 		<Unit filename="inc\imp\osocketsdef.h" />
@@ -66,6 +67,7 @@
 		<Unit filename="src\imp\addrinfobase.cpp" />
 		<Unit filename="src\imp\hintstcpclient.cpp" />
 		<Unit filename="src\imp\hintstcpserver.cpp" />
+		<Unit filename="src\imp\hintsudp.cpp" />
 		<Unit filename="src\imp\mutex.cpp" />
 		<Unit filename="src\imp\osocketfunctors.cpp" />
 		<Unit filename="src\imp\osocketsdef.cpp" />
