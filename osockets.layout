@@ -67,7 +67,7 @@
 	<File name="src\imp\hintstcpclient.cpp" open="1" top="0" tabpos="8">
 		<Cursor position="531" topLine="0" />
 	</File>
-	<File name="src\imp\hintsudp.cpp" open="1" top="0" tabpos="10">
+	<File name="src\imp\hintsudp.cpp" open="1" top="1" tabpos="9">
 		<Cursor position="527" topLine="0" />
 	</File>
 	<File name="src\imp\mutex.cpp" open="0" top="0" tabpos="6">
@@ -80,10 +80,10 @@
 		<Cursor position="391" topLine="60" />
 	</File>
 	<File name="src\socket.cpp" open="1" top="0" tabpos="4">
-		<Cursor position="793" topLine="83" />
+		<Cursor position="793" topLine="85" />
 	</File>
 	<File name="src\socketconnection.cpp" open="1" top="0" tabpos="6">
-		<Cursor position="910" topLine="71" />
+		<Cursor position="910" topLine="0" />
 	</File>
 	<File name="src\socketexception.cpp" open="0" top="0" tabpos="5">
 		<Cursor position="350" topLine="0" />
